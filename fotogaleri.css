@@ -1,0 +1,53 @@
+h1{
+ font-size: 44px;
+ text-align: center;
+ font-family: "Times New Roman", Times, serif;
+ background: hsl(0, 0%, 71%);
+ color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px; border-radius: 20px;
+
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 22px;
+  text-align: left;
+}
+
+img{
+  width: 250px;
+  height: 250px
+}
+
+p{
+  font-size: 22px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+ul{
+  font-size: 25px;
+}
+
+nav{
+  background-color: black;
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+strong{
+  font-size: 30px;
+}
