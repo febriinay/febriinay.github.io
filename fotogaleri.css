@@ -1,0 +1,38 @@
+h1{
+ font-size: 90px;
+ text-align: center;
+ font-family: "Times New Roman", Times, serif;
+ background: hsl(0, 0%, 71%);
+ color: black;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px; border-radius: 20px;
+
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+img{
+  width: 400px;
+  height: 400px
+}
+
+p{
+  font-size: 70px
+}
+
+ul{
+  font-size: 70px;
+}
+
+nav{
+  background-color: black;
+}
